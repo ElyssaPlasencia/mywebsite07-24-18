@@ -1,0 +1,39 @@
+#header{
+    color:black;
+    text-align:center;
+    padding-top: 50px
+    background-color:black;
+}
+
+.circle {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  color:black;
+  
+}
+
+body{
+    background-color: ;
+    height: 2000px;
+    background-color: #cccccc;
+    background-image: linear-gradient(silver);
+}
+
+img{
+    padding:2px;
+    height:150px;
+}
+
+#secondpara{
+    display: inline-block;
+  position: relative;
+  height: 17px;
+  border-top: 5px dotted black;
+  border-bottom: 5px dotted black;
+  top: 0;
+  width: 600px;
+}
+
+
+
