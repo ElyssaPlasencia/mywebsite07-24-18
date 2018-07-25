@@ -1,39 +1,94 @@
-#header{
-    color:black;
-    text-align:center;
-    padding-top: 50px
-    background-color:black;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-.circle {
-  height: 500px;
-  width: 500px;
-  border-radius: 50%;
-  color:black;
-  
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+#header{
+    color:maroon;
+    text-align:center;
+    padding-top: 50px
 }
 
 body{
-    background-color: ;
-    height: 2000px;
-    background-color: #cccccc;
-    background-image: linear-gradient(silver);
+    background-color:#FF57;
 }
 
 img{
     padding:2px;
     height:150px;
+    
 }
 
 #secondpara{
-    display: inline-block;
-  position: relative;
-  height: 17px;
-  border-top: 5px dotted black;
-  border-bottom: 5px dotted black;
-  top: 0;
-  width: 600px;
+    border:maroon dotted 7px;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
 
+#header2{
+    font-family: Courier
+}
 
+#secondpara{
+    font-family:Arial, sans-serif;
+    font-style: italic;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#header3{
+    font-family:Arial, sans-serif;
+    font-style: italic;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#thirdpara{
+    
+
+#header4{
+    font-family:Arial, sans-serif;
+    font-style: italic;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#fourthpara{
+    font-family:Arial, sans-serif;
+    font-style: italic;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#fifthpara{
+    font-family:Arial, sans-serif;
+    font-style: italic;
+    font-style: oblique;
+    font-weight: bold;
+}
